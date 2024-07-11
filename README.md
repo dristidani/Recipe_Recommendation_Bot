@@ -97,9 +97,9 @@ Example: "Can you give me a recipe for a dish not in the database?"
 I'm sorry, but I don't have the information you're looking for in my database. Can I help you with something else related to cooking recipes or ingredients?
 
 #### Code Structure
-recipechatbot.py: Main application file.
-requirements.txt: List of required Python packages.
-.streamlit/secrets.toml: Configuration file for API keys.
+- recipechatbot.py: Main application file.
+- requirements.txt: List of required Python packages.
+- .streamlit/secrets.toml: Configuration file for API keys.
 
 
 ### Report
