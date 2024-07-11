@@ -1,4 +1,4 @@
-# Recipe Recommendation Chatbot
+# Recipe Recommendation Chatbot 🥘🥗🤖
 
 ## Overview
 
@@ -103,19 +103,33 @@ requirements.txt: List of required Python packages.
 
 
 ### Report
-Approach Taken
+
+#### Approach Taken
 The chatbot was developed using a combination of LangChain for managing interactions and Pinecone for vector storage. The primary goal was to create a RAG pipeline to provide accurate and context-aware recipe recommendations.
 
 #### Challenges Faced
-Integration with Pinecone: Ensuring efficient indexing and retrieval of recipe data.
-Context Management: Maintaining conversation context across multiple user interactions.
-Handling Out-of-Scope Queries: Implementing a mechanism to detect and respond appropriately to out-of-scope queries.
-Overcoming Challenges
-Efficient Data Chunking: Implemented an asynchronous method to load and chunk PDF data, improving response times.
-Enhanced Prompts: Used detailed and structured prompts to guide the language model in generating accurate and context-aware responses.
-Error Handling: Added checks for out-of-scope queries and unavailable data to enhance user experience.
-Video Demonstration
+
+- Integration with Pinecone: Ensuring efficient indexing and retrieval of recipe data.
+- Context Management: Maintaining conversation context across multiple user interactions.
+- Handling Out-of-Scope Queries: Implementing a mechanism to detect and respond appropriately to out-of-scope queries.
+
+#### Overcoming Challenges
+
+- Efficient Data Chunking: Implemented an asynchronous method to load and chunk PDF data, improving response times.
+- Enhanced Prompts: Used detailed and structured prompts to guide the language model in generating accurate and context-aware responses.
+- Error Handling: Added checks for out-of-scope queries and unavailable data to enhance user experience.
+
+#### Future Enhancements
+
+- User Profiles: Implementing user profiles to store preferences and history for more personalized recommendations.
+- Enhanced Data Features: Including more detailed recipe metadata, such as nutritional information, difficulty levels, and cooking times.
+- Community Features: Allowing users to rate and review recipes, and submit their own recipes for aricher community-driven experience.
+
+#### Video Demonstration
 A video demonstration of the chatbot in action is available. Watch the Demo
 
 ### License
 This project is licensed under the MIT License.
+
+### Author
+Dristi Dani
