@@ -32,14 +32,14 @@ The Recipe Recommendation Chatbot is designed to provide personalized cooking re
 2. **Create and Activate Virtual Environment**
 
 ```bash
-Copy code
+ 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies**
 
 ```bash
-Copy code
+ 
 pip install -r requirements.txt
 ```
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 Create a secrets.toml file in the .streamlit directory with the following content:
 
 ```toml
-Copy code
+ 
 [openai]
 api_key = "your_openai_api_key"
 
@@ -60,6 +60,6 @@ environment = "your_pinecone_environment"
 5. **Run the Application**
 
 ```bash
-Copy code
+ 
 streamlit run recipechatbot.py
 ```
