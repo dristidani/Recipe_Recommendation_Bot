@@ -36,16 +36,18 @@ Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install Dependencies
+3. **Install Dependencies**
 
 ```bash
 Copy code
 pip install -r requirements.txt
-Set Up Secrets
+```
+
+4. **Set Up Secrets**
 
 Create a secrets.toml file in the .streamlit directory with the following content:
 
-toml
+```toml
 Copy code
 [openai]
 api_key = "your_openai_api_key"
@@ -53,8 +55,11 @@ api_key = "your_openai_api_key"
 [pinecone]
 api_key = "your_pinecone_api_key"
 environment = "your_pinecone_environment"
-Run the Application
+```
 
-bash
+5. **Run the Application**
+
+```bash
 Copy code
 streamlit run recipechatbot.py
+```
