@@ -126,7 +126,7 @@ The chatbot was developed using a combination of LangChain for managing interact
 - Community Features: Allowing users to rate and review recipes, and submit their own recipes for aricher community-driven experience.
 
 #### Video Demonstration
-A video demonstration of the chatbot in action is available. Watch the [Demo][https://northeastern-my.sharepoint.com/:v:/g/personal/dani_d_northeastern_edu/EUAswTetGLBMpXSe0D2QRBEBMXRgNS1wuHvJsfjETWkgFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0iyZ5M]
+A video demonstration of the chatbot in action is available. Watch the [Demo](https://northeastern-my.sharepoint.com/:v:/g/personal/dani_d_northeastern_edu/EUAswTetGLBMpXSe0D2QRBEBMXRgNS1wuHvJsfjETWkgFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0iyZ5M)
 
 ### License
 This project is licensed under the MIT License.
